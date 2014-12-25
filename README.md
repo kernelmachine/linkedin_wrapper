@@ -7,13 +7,14 @@ It was a pain to get LinkedIn authentication running with my Python web app, so 
 
 To generate authentication token in your app, execute the following code: 
 
+```
 from flask import request
 import linkedin_wrapper
 
 li = linkedin_wrapper.LinkedIn()
 url = li.get_authorization_code()
 token = li.generate_app(request.args.get('code'))
-
+```
 
 
 Explanation 
