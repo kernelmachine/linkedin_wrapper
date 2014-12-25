@@ -12,7 +12,6 @@ import linkedin_wrapper
 
 li = linkedin_wrapper.LinkedIn()
 url = li.get_authorization_code()
-#authorize linkedin profile
 token = li.generate_app(request.args.get('code'))
 
 
@@ -20,7 +19,7 @@ token = li.generate_app(request.args.get('code'))
 Explanation 
 ================
 
-Send user to following URL. 
+Make the user authorize his profile by going to following URL. You can change the parameters of what you can see of the user's linkedin by editing the parameters in the url slug.
 
 >> url = li.get_authorization_code()
 
