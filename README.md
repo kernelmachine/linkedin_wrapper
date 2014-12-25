@@ -3,7 +3,6 @@ linkedin_wrapper
 
 Python wrapper to LinkedIn authentication API.
 
-It was a pain to get LinkedIn authentication running with my Python web app, so I decided to make it simpler for everyone else. Here's a Python wrapper to authorizing LinkedIn profiles with your application. 
 
 To generate authentication token in your app, execute the following code: 
 
